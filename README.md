@@ -12,7 +12,7 @@ pkg install git
 <br>
 pkg install python
 <br>
-git clone https://github.com/rivopoi/jadwalsholat
+git clone https://github.com/rivopoi/jadwalsholat.git
 <br>
 cd jadwalsholat
 <br>
