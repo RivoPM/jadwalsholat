@@ -8,7 +8,7 @@ def clear():
     return os.system("cls") if (platform.system() == 'Windows') else os.system("clear")
 
 clear()
-location = input("Masukan Lokasi Anda Contoh:bekasi??"+"\n")
+location = input("Masukan Lokasi Anda Contoh:jakarta??"+"\n")
 req = requests.get('https://time.siswadi.com/pray/'+location)
 st = json.loads(req.content)
 dat = (st["data"])
